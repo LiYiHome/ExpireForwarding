@@ -21,7 +21,6 @@ public class ReceiveServer implements Runnable {
         this.port = port;
     }
 
-    @Override
     public void run() {
         final ReceiveServerHandler serverHandler = new ReceiveServerHandler();
         EventLoopGroup bossGroup = new NioEventLoopGroup();

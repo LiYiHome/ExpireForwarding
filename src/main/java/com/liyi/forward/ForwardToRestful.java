@@ -128,7 +128,6 @@ public class ForwardToRestful implements Runnable {
         return result;
     }
 
-    @Override
     public void run() {
         CloseableHttpClient client = HttpClients.createDefault();
         HttpPost httpPost = new HttpPost(Application.config.getProperties("http.url"));

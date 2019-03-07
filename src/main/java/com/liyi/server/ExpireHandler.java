@@ -17,7 +17,6 @@ public class ExpireHandler implements Runnable {
         this.uid = uid;
     }
 
-    @Override
     public void run() {
         PreparedStatement ps = null;
         Connection conn = null;
