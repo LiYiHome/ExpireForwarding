@@ -21,6 +21,7 @@
 ## 使用指南
 * [使用场景](docs/usecase.md)
 * [API使用说明](docs/apiguide.md)
+* [创建数据库和表](docs/createdatabase.md)
 
 ## 有问题反馈
 在使用中有任何问题，欢迎反馈给我，可以用以下联系方式跟我交流
