@@ -2,7 +2,6 @@ package com.liyi.forward;
 
 import com.liyi.start.Application;
 import com.liyi.util.Constants;
-import com.liyi.util.LoadConf;
 import net.sf.json.JSONObject;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
